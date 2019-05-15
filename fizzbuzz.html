@@ -10,25 +10,24 @@
     <script>
     var num = 0
 
-      while (num <= 0)
+      while (num <= 100)
       {
-        num = num + 1
-        if (num % 3 == 0)
+        if (num % 15 == 0)
         {
-          alert("Fizz")
+          console.log("Fizz buzz")
         }
         else if (num % 5 == 0)
         {
-          alert("Buzz")
+          console.log("Buzz")
         }
-        else if (num % 15 == 0)
+        else if (num % 3 == 0)
         {
-          alert("Fizz buzz")
+          console.log("Fizz")
         }
         else{
-
+          console.log (num)
         }
-        alert (num)
+        num = num + 1
       }
     </script>
   </body>
